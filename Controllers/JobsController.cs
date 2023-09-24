@@ -8,19 +8,24 @@ namespace JobBoard.Controllers
     [Route("[controller]")]
     public class JobsController : Controller
     {
+        public IDB db;
+
+        public JobsController(IDB db)
+        {
+            this.db = db;
+        }
+
         public IActionResult Jobs()
         {
-            var db = CosmosDB.Instance;
             return new JsonResult(db.ReadJobs());
         }
         [HttpGet("{id}")]
         public IActionResult Jobs(int id) {
-            var db = CosmosDB.Instance;
+
             return new JsonResult(db.ReadJobWithId(id.ToString()));
         }
         [HttpPost]
         public IActionResult Submit([FromBody] Job job) {
-            var db = CosmosDB.Instance;
             var res = db.InsertJob(job);
             return new ContentResult
             {
@@ -33,7 +38,6 @@ namespace JobBoard.Controllers
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] Job job)
         {
-            var db = CosmosDB.Instance;
             var res = db.UpdateJob(job);
             return new ContentResult
             {

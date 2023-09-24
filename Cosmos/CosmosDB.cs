@@ -4,23 +4,13 @@ using Newtonsoft.Json.Linq;
 
 namespace JobBoard.Cosmos
 {
-    public class CosmosDB{
-        static private CosmosDB _instance;
-        static public CosmosDB Instance
-        {
-            get
-            {
-                if (_instance == null)
-                    _instance = new CosmosDB();
-                return _instance;
-            }
-        }
+    public class CosmosDB:IDB{
         private CosmosClient Client { get; set; }
         private Database DB { get; set; }
         private Container JobsContainer { get; set; }
 
 
-        private CosmosDB() {
+        public CosmosDB() {
             Client = new CosmosClient("AccountEndpoint=https://localhost:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==");
             CreateDBAndContainerAsync();
         }
@@ -82,7 +72,7 @@ namespace JobBoard.Cosmos
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                return null;
+                return Job.NullJob;
             }
         }
         public String UpdateJob(Job job)
@@ -97,5 +87,39 @@ namespace JobBoard.Cosmos
                 return ex.Message;
             }
         }
+        public ApplicationTemplate ReadTemplateWithId(String id)
+        {
+            String query = $"select c.Template from c where c.id = {id}";
+            var definition = new QueryDefinition(query);
+            var res = JobsContainer.GetItemQueryIterator<ApplicationTemplate>(definition);
+            try
+            {
+                var temp = res.ReadNextAsync().Result.First();
+                return temp;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return new ApplicationTemplate();
+            }
+        }
+
+        public Workflow ReadWorkflowWithId(String id)
+        {
+            String query = $"select c.flow from c where c.id = {id}";
+            var definition = new QueryDefinition(query);
+            var res = JobsContainer.GetItemQueryIterator<Workflow>(definition);
+            try
+            {
+                var flow = res.ReadNextAsync().Result.First();
+                return flow;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return new Workflow();
+            }
+        }
+
     }
 }

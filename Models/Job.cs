@@ -1,6 +1,9 @@
 ﻿namespace JobBoard.Models
 {
     public class Job{
+        public readonly static Job NullJob = new Job() { 
+            Title = "Error"
+        };
         public String id { get; set; }
         public String Type { set; get; }
         public String Title { set; get; }
