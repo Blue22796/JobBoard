@@ -18,7 +18,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.Run();
 
-//https://drive.google.com/u/0/uc?id=1QP7o3_uVKZOZP3D8NcTk1OxbWfRnC_zj&export=download
-//http://fs1.megadb.xyz:8080/d/7dnhxwaoy5vxygoid7w7rv2em3yqqnyw4eo3tu6v4lbcrm44iwidcxqfteoojqw4gywjozan/OCTOPATH-TRAVELER-SteamRIP.com.rar
-//https://1fichier.com/?abvb9rbyj380lmsf7q1w%20
-//https://filecrypt.co/Container/F32867D303.html
+//https://drive.google.com/file/d/1FZOwvUa3eIT8UV0v01f0U8le4Gn3V_N_/view?usp=sharing
+//https://drive.google.com/file/d/1TYcR4wGOd4xxOPVDruON33lwLkROO33K/view?usp=sharing
+//https://groups.google.com/g/itskayoanime/c/1-5fT7wPz58?pli=1
+//https://drive.google.com/drive/folders/1r2ld27sz_3VTnjzuvEavf0t2lddRucZO
