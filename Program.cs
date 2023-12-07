@@ -17,3 +17,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.Run();
+int missing[] = [23,41,42,43,46,49,50,51,52]
+https://drive.google.com/drive/folders/1r2ld27sz_3VTnjzuvEavf0t2lddRucZO
