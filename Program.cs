@@ -20,5 +20,7 @@ app.Run();
 int missing[] = [23,41,42,43,46,49,50,51,52]
 //https://drive.google.com/drive/u/1/folders/1sm0jplwUSlShusaiNXUd1suMwUfcmA_a
 //https://drive.google.com/drive/u/1/folders/1lV6InJiSh9alPv4Cz_IqEQyJfEhgQgSS
+//https://drive.google.com/drive/folders/1dng_-kn0r0tMIzH_P_K4SBbTy7W924MG
+//https://drive.google.com/drive/folders/1dhv6fZnC7F1Dw1G4VvjJYRXCOCO69QEu
 
 //https://cisasuedu-my.sharepoint.com/personal/2021170363_cis_asu_edu_eg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2021170363%5Fcis%5Fasu%5Fedu%5Feg%2FDocuments%2FApps&ga=1
