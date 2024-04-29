@@ -1,26 +1,24 @@
 BF
 https://drive.google.com/drive/folders/1qOAv926RYpCHB6rh8_38aD81LyRZGXBb
-BL
+BL 1-3 5 8-10 2,9 2,12 3,5
 https://drive.google.com/drive/folders/1EI4zO1ru5zNj6dc1g1Xj0kc4lz6MI-LF
-EL
+EL 1 3-5 7 9 12
 https://drive.google.com/drive/folders/1L7LIHD1Q70v7D8J0cPrDY5Xr80rDG3Qx
 GC
 https://drive.google.com/drive/folders/1EH8d1ESHnp8Jry9EIBpQe3J4G_nMn2ij
 doro
 https://worker-delicate-meadow-kayo161.kayoanime161.workers.dev/0:/Dorohedoro/
-magi
-https://drive.google.com/drive/folders/1DTNAR2q-WQrVOM1sKMX-gX0Uu5cKAsMS
+
 re0
 https://drive.google.com/drive/folders/1keqrSRLkb-KF2LV2awFUbr0Ja4yU81qV
 https://drive.google.com/drive/folders/1C6Cjk-UCBJfULfnntT82q0M4v9vkN2qg
 https://drive.google.com/drive/folders/1qWVAQ9MgyJpojluILFo5yOikqIK1XW6d
 https://drive.google.com/drive/folders/1Lh8TMSVvwTugVP8hQ8FfTrh6iP04JHCD
-cromartie
+cromartie 1
 https://drive.google.com/drive/folders/1g7Flv_VZvRuIYouBnAS2OsLgqOxqH1v7
-OT
-https://drive.google.com/drive/folders/1xxfNZ-3m3EIbnz990BI6OvOJVaeoyHVq
-HS grl
-https://drive.google.com/drive/folders/1h3G7VnWKfa9BODrN_xWrwo88nxNxFnAH
+
+HS grl 4 6
+https://drive.google.com/drive/folders/1h3G7VnWKfa9BODrN_xWrwo88nxNxFnAH 
 PS
 https://drive.google.com/drive/folders/1LSUGxJPiCWKdkSoIxEEx8XbUTfJ14Ub2
 tama
@@ -33,37 +31,4 @@ https://drive.google.com/drive/folders/1tR-0ZPC2A-NYnEVMumSFa_vSlldVkl8V
 https://drive.google.com/drive/folders/12Vb2WUnlmJ2RZtdhMdMK1s35Tjp36o10
 https://drive.google.com/drive/folders/1r7Wgbri8rr3YhVaeeF2uIY5MykmbND_g
 
-
-
-titan
-https://kwik.si/f/ZnpgQjCzp0Ku
-https://kwik.si/f/s0wuhLxAxNz0
-https://kwik.si/f/0bMiEf2AYM5U
-https://kwik.si/f/EzD8nhYEAO14
-https://kwik.si/f/aqDpXUp5T2oN
-https://kwik.si/f/RLpM03ExWfJj
-https://kwik.si/f/ogihVj9frwlw
-https://kwik.si/f/cgOIEb8WRugk
-https://kwik.si/f/yko94CtJDWlm
-https://kwik.si/f/iDu3Jpc2iDqM
-https://kwik.si/f/7RIZdZrbJ5AN
-https://kwik.si/f/1qXUAEKtPemk
-https://kwik.si/f/glRtt4lCpW6R
-https://kwik.si/f/cwJZ5ulssEm0
-https://kwik.si/f/ouqSmgLl5zyI
-https://kwik.si/f/vyWhelGMLvMw
-https://kwik.si/f/9t1832bkg6HL
-https://kwik.si/f/J27y0dcamd9S
-https://kwik.si/f/kcXrA6GWHZR4
-https://kwik.si/f/3LXSkCoBhlW3
-https://kwik.si/f/GKH1xqN7B662
-https://kwik.si/f/EYmeXY7Mr0m4
-https://kwik.si/f/DDgttFNGU1Kv
-https://kwik.si/f/GfnpG92BFLV3
-https://kwik.si/f/nhW824efZb58
-https://kwik.si/f/Sg9KFGOTCj40
-https://kwik.si/f/tZpLc65nVnGN
-https://kwik.si/f/B3ggq6TZMSrc
-https://kwik.si/f/OY0gtr0YPo6g
-https://kwik.si/f/mEVhVvh5yMNo
 https://kwik.si/f/vJYfsGFy7571
